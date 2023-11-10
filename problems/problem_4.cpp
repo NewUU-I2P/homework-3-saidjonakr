@@ -9,6 +9,7 @@ std::string problemSolution4(const std::string &macAddress) {
         ans =  "Broadcast";
     }else {
         n = (macAddress[1] - '0');
+        if(n > 9) n ++;
         if (n % 2 == 0) {
             ans = "Unicast";
         } else {
