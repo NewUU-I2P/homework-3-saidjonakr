@@ -1,8 +1,7 @@
 double problemSolution1(double consumed_water) {
-    double cost = 0;
+    double cost = 13.0;
     // write your code here
     if(consumed_water > 0.0) {
-        cost += 13.0;
         if(consumed_water >= 30.0){
             cost += 30.0 * 0.4;
         }else {
