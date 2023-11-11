@@ -15,7 +15,7 @@ int main() {
 //    cout << "Problem 3\n";
 //    problemSolution3();
 //    cout << "Problem 4\n";
-    problemSolution4();
+    cout<<problemSolution4("1A");
 //    cout << "Problem 5\n";
 //    problemSolution5();
     return 0;

@@ -1,6 +1,7 @@
 #include <string>
 #include <sstream>
-
+#include <bits/stdc++.h>
+using namespace std;
 std::string problemSolution4(const std::string &macAddress) {
     // write your code here
     int n = 0;
